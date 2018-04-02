@@ -18,7 +18,7 @@ public class TestUnit1 {
 
         // check for false conditions
         assertFalse(num > 6);
-        //assertTrue(num > 6);
+        assertTrue(num > 6);
         /* Das ergibt folgendes:
         java.lang.AssertionError
         Process finished with exit code -1
