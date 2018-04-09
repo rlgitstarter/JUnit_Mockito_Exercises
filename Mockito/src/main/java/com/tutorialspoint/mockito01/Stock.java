@@ -1,15 +1,18 @@
-package com.tutorialspoint.basic;
+package com.tutorialspoint.mockito01;
 
 public class Stock {
     private String stockId;
     private String name;
     private int quantity;
 
+    // Konstruktor mit Parameter
     public Stock(String stockId, String name, int quantity) {
         this.stockId = stockId;
         this.name = name;
         this.quantity = quantity;
     }
+
+    // Getter und Setter für Id, Getter für Quantity und Ticker
 
     public String getStockId() {
         return stockId;
@@ -24,5 +27,6 @@ public class Stock {
     }
 
     public String getTicker() {
-        return name;    }
+        return name;
+    }
 }

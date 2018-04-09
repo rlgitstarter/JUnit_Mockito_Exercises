@@ -1,4 +1,4 @@
-package com.tutorialspoint.basic;
+package com.tutorialspoint.mockito01;
 
 import java.util.ArrayList;
 import java.util.List;

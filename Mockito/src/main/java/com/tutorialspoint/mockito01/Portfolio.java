@@ -1,4 +1,4 @@
-package com.tutorialspoint.basic;
+package com.tutorialspoint.mockito01;
 
 import java.util.List;
 
@@ -6,6 +6,7 @@ public class Portfolio {
     private StockService stockService;
     private List<Stock> stocks;
 
+    // Getter und Setter für StockService und Stock-Liste
     public StockService getStockService() {
         return stockService;
     }
@@ -22,6 +23,7 @@ public class Portfolio {
         this.stocks = stocks;
     }
 
+    // Berechnung aufgr. des Stock-Einzelpreises und der Menge
     public double getMarketValue() {
         double marketValue = 0.0;
 
